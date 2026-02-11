@@ -3,26 +3,30 @@
 @media screen and (min-width: 768px) and (max-width: 992px) {
     #login {
         width: 70vw;
-        
+        height: 310px;
     }
     #imagem {
-        float: left;
+        float: right;
         width: 40%;
         height: 100%;
     }
     #formulario {
-        float: right;
+        float: left;
         width: 60%;
         height: 100%;
     }
     body {
         background-color: red;
     }
+    #formulario p {
+        font-size: 1em;
+    }
 }
 
 @media screen and (min-width: 992px) {
     #login {
         width: 900px;
+        height: 310px;
     }
     #imagem {
         float: left;
@@ -33,5 +37,12 @@
         float: right;
         width: 50%;
         height: 200%;
+    }
+    #formulario h1 {
+        font-size: 2.3em;
+    }
+    #formulario p {
+        font-size: 1.2em;
+        margin: 10px 0px;
     }
 }
